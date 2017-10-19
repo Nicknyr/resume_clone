@@ -109,7 +109,7 @@ rect {
 
   #bars {
     float: right;
-  
+
   }
 
   #hobbies {
@@ -141,6 +141,13 @@ rect {
     }
   }
 
+  #education {
+    span {
+      float: right;
+      font-weight: bold;
+    }
+  }
+
   #skills {
 
     li {
@@ -154,26 +161,49 @@ rect {
   height: 12em;
   background-color: $lightBlue;
   clear: both;
+  overflow: hidden;
 
-  p {
-    width: 30%;
-    text-align: center;
+  i {
+    color: white;
   }
 
   ul {
+    list-style-type: none;
+  }
+
+  #social-icons {
+    width: 100%;
+    padding-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+
+    li {
+      display: inline;
+      margin-left: 10em;
+      margin-right: 10em;
+    }
   }
 
-  li {
-    display: inline-block;
-    padding-right: 5em;
-    color: white;
+  #social-links {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+
+    li {
+      display: inline;
+      margin-left: 5em;
+      margin-right: 5em;
+
+      a {
+        color: white;
+        text-decoration: none;
+      }
+
+    }
   }
 
-  a {
-    color: white;
-    text-decoration: none;
-  }
 }
 
 #footer {
