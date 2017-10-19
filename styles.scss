@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto'); //font-family: 'Roboto', sans-serif;
 
 $darkBlue: #2980b9;
 $lightBlue: #3498db;
@@ -6,7 +7,7 @@ $lightGrey: #ecf0f1;
 
 body {
   margin: 0;
-
+  font-family: 'Roboto', sans-serif;
 }
 
 h3 {
@@ -71,9 +72,10 @@ h3 {
 
 #info {
   width: 33.5%;
-  height: 40em;
-  background-color: lightgrey;
+  height: 55em;
+  background-color: white;
   float: left;
+  border-right: 1px solid black;
 
   h3 {
     margin-left: 20%;
@@ -83,13 +85,21 @@ h3 {
     margin-left: 11%;
     list-style-type: none;
   }
+
+  #hobbies {
+    li {
+      display: inline-block;
+      padding-right: 3em;
+    }
+  }
 }
 
 #resume {
-  width: 66.5%;
-  height: auto;
-  background-color: $lightGrey;
+  width: 64%;
+  height: 55em;
+  background-color: white;
   float: right;
+  padding-left: 2%;
 }
 
 #social {
@@ -97,6 +107,26 @@ h3 {
   height: 12em;
   background-color: $lightBlue;
   clear: both;
+
+  p {
+    width: 30%;
+    text-align: center;
+  }
+
+  ul {
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    padding-right: 5em;
+    color: white;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+  }
 }
 
 #footer {
