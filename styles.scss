@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto'); //font-family: 'Roboto', sans-serif;
 
-$darkBlue: #2980b9;
-$lightBlue: #3498db;
+$darkBlue: #0088CC;
+$lightBlue: #0AA1DA;
 $darkGrey: #7f8c8d;
 $lightGrey: #ecf0f1;
 
@@ -52,20 +52,33 @@ rect {
 
 #intro {
   width: 100%;
-  height: 12em;
+  height: 14em;
   background-color: $lightBlue;
+  border-bottom: 2px solid black;
 
   h1 {
     margin-top: 0;
-    margin-left: 5%;
+    margin-left: 8%;
+    margin-bottom: .05em;
     padding-top: 2em;
     color: white;
+    font-size: 2.5em;
+    font-weight: 100;
+    width: 50%;
   }
 
   h3 {
     margin-top: 0;
-    margin-left: 5%;
+    margin-left: 8%;
     color: white;
+    width: 50%;
+  }
+
+  #headshot {
+    float: right;
+    border-radius: 100%;
+    margin-right: 9em;
+    margin-top: 2.5em;
   }
 
 }
@@ -73,12 +86,13 @@ rect {
 #description {
   width: 100%;
   height: 9em;
-  background-color: $darkGrey;
+  background-color: #576268;
+  border-bottom: 2px solid black;
 
   p {
     margin: 0;
     width: 80%;
-    margin-left: 10%;
+    margin-left: 8%;
     color: white;
     padding-top: 2em;
     line-height: 1.3;
@@ -87,45 +101,55 @@ rect {
 
 #info {
   width: 33.5%;
-  height: 55em;
-  background-color: white;
+  height: 57em;
+  background-color: #F7F7F7;
   float: left;
   border-right: 1px solid black;
 
+  p:nth-child(odd){
+    float: right;
+  }
+
+  p:nth-child(even){
+    font-weight: bold;
+  }
+
   h3 {
-    margin-left: 20%;
+    margin-left: 5.5em;
     margin-top: 3em;
+    clear: both;
+  }
+
+  #bars {
+    margin-left: 0;
+    margin-right: 1em;
+    width: 10em;
+    float: right;
   }
 
   ul {
-    margin-left: 11%;
+    margin-left: 14.5%;
     list-style-type: none;
   }
 
   #software {
     float: left;
-
   }
 
-  #bars {
-    float: right;
-
-  }
-
-  #hobbies {
+  .hobbies {
     clear: both;
 
     li {
       display: inline-block;
-      padding-right: 3em;
+      padding-right: 1em;
     }
   }
 }
 
 #resume {
   width: 64%;
-  height: 55em;
-  background-color: white;
+  height: 57em;
+  background-color: #EEEEEE;
   float: right;
   padding-left: 2%;
 
@@ -165,6 +189,7 @@ rect {
 
   i {
     color: white;
+    line-height: inherit;
   }
 
   ul {
@@ -215,11 +240,55 @@ rect {
   ul {
     display: inline-block;
     color: white;
-    margin-left: 5%;
+    margin-left: 8%;
+    padding-left: 0;
 
     li {
       display: inline-block;
       margin-right: .5em;
     }
   }
+}
+
+.circle {
+  width: 70px;
+  height: 70px;
+  background-color: $darkBlue;
+  border-radius: 100%;
+  line-height: 70px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+
+}
+
+.circle-hobbies {
+  width: 80px;
+  height: 80px;
+  background-color: #9DCAEB;
+  border-radius: 100%;
+  line-height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block;
+
+  i {
+    line-height: inherit;
+    color: white;
+  }
+}
+
+
+#container {
+  margin: 20px;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+}
+
+#line {
+  //margin: 20px;
+  //width: 400px;
+  height: 8px;
 }
