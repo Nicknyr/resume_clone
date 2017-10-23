@@ -171,6 +171,15 @@ rect {
     #footer ul li {
       display: inline-block;
       margin-right: .5em; }
+  #footer span {
+    float: right;
+    margin-right: 10em;
+    padding-top: 1em; }
+    #footer span a {
+      text-decoration: none;
+      color: white; }
+      #footer span a:hover {
+        color: black; }
 
 .circle {
   width: 70px;

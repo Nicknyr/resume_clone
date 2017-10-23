@@ -11,6 +11,9 @@ hr {
   height: 1px;
   background-color: lightgrey; }
 
+#picture1, #picture3 {
+  opacity: 1; }
+
 #header {
   width: 100%;
   height: 2em;
@@ -55,6 +58,61 @@ hr {
     border-radius: 100%;
     margin-right: 9em;
     margin-top: 2.5em; }
+
+#main {
+  height: 60em; }
+
+#project1, #project3 {
+  height: auto;
+  width: 33.5%;
+  background-color: white;
+  float: left;
+  clear: both; }
+  #project1 h3, #project3 h3 {
+    margin-top: 2em; }
+  #project1 p a, #project3 p a {
+    text-decoration: none;
+    color: #0088CC;
+    font-weight: bold; }
+    #project1 p a:hover, #project3 p a:hover {
+      color: black; }
+  #project1 h3, #project3 h3 {
+    margin-left: 5.5em; }
+  #project1 p, #project3 p {
+    margin-left: 6.5em;
+    margin-right: 2em; }
+
+#project2 {
+  height: auto;
+  width: 33.5%;
+  background-color: white;
+  float: right;
+  clear: both; }
+  #project2 h3 {
+    margin-top: 2em; }
+  #project2 p a {
+    text-decoration: none;
+    color: #0088CC;
+    font-weight: bold; }
+    #project2 p a:hover {
+      color: black; }
+  #project2 h3 {
+    margin-left: 2em; }
+  #project2 p {
+    margin-right: 6.5em;
+    margin-left: 2.5em; }
+
+#pic2 {
+  float: left;
+  height: 20em;
+  width: 66.5%;
+  overflow: contain; }
+
+#pic1, #pic3 {
+  float: right;
+  height: 20em;
+  width: 66.5%;
+  overflow: contain; }
 
 #social {
   width: 100%;
@@ -103,6 +161,15 @@ hr {
     #footer ul li {
       display: inline-block;
       margin-right: .5em; }
+  #footer span {
+    float: right;
+    margin-right: 10em;
+    padding-top: 1em; }
+    #footer span a {
+      text-decoration: none;
+      color: white; }
+      #footer span a:hover {
+        color: black; }
 
 .circle {
   width: 70px;

@@ -89,6 +89,14 @@ hr {
     margin-left: 2em;
     margin-top: 2em;
     margin-right: 5em; }
+  #letter img {
+    margin-top: 2em; }
+  #letter #name {
+    margin-top: .5em;
+    margin-bottom: 0;
+    font-weight: bolder; }
+  #letter #title {
+    margin-top: .2em; }
 
 #social {
   width: 100%;
@@ -137,6 +145,15 @@ hr {
     #footer ul li {
       display: inline-block;
       margin-right: .5em; }
+  #footer span {
+    float: right;
+    margin-right: 10em;
+    padding-top: 1em; }
+    #footer span a {
+      text-decoration: none;
+      color: white; }
+      #footer span a:hover {
+        color: black; }
 
 .circle {
   width: 70px;

@@ -5,9 +5,32 @@ $lightBlue: #0AA1DA;
 $darkGrey: #7f8c8d;
 $lightGrey: #ecf0f1;
 
+@mixin project-info {
+  height: auto;
+  width: 33.5%;
+  background-color: white;
+
+  h3 {
+    margin-top: 2em;
+  }
+
+  p {
+    a {
+      text-decoration: none;
+      color: $darkBlue;
+      font-weight: bold;
+
+      &:hover {
+        color: black;
+      }
+    }
+  }
+}
+
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
+
 }
 
 h3 {
@@ -18,6 +41,10 @@ hr {
   border: none;
   height: 1px;
   background-color: lightgrey;
+}
+
+#picture1, #picture3 {
+  opacity: 1;
 }
 
 #header {
@@ -80,6 +107,57 @@ hr {
     margin-right: 9em;
     margin-top: 2.5em;
   }
+
+}
+
+#main {
+  height: 60em;
+}
+
+#project1, #project3 {
+  @include project-info;
+  float: left;
+  clear: both;
+
+
+  h3 {
+    margin-left: 5.5em;
+  }
+
+  p {
+    margin-left: 6.5em;
+    margin-right: 2em;
+  }
+}
+
+#project2 {
+  @include project-info;
+  float: right;
+  clear: both;
+
+  h3 {
+    margin-left: 2em;
+  }
+
+  p {
+    margin-right: 6.5em;
+    margin-left: 2.5em;
+  }
+}
+
+#pic2 {
+  float: left;
+  height: 20em;
+  width: 66.5%;
+  overflow: contain;
+
+}
+
+#pic1, #pic3 {
+  float: right;
+  height: 20em;
+  width: 66.5%;
+  overflow: contain;
 
 }
 
@@ -151,6 +229,22 @@ hr {
       display: inline-block;
       margin-right: .5em;
     }
+  }
+
+  span {
+    float: right;
+    margin-right: 10em;
+    padding-top: 1em;
+
+    a {
+    text-decoration: none;
+    color: white;
+
+      &:hover {
+        color: black;
+      }
+    }
+
   }
 }
 

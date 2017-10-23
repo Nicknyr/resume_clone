@@ -255,6 +255,22 @@ rect {
       margin-right: .5em;
     }
   }
+
+  span {
+    float: right;
+    margin-right: 10em;
+    padding-top: 1em;
+
+    a {
+    text-decoration: none;
+    color: white;
+
+      &:hover {
+        color: black;
+      }
+    }
+
+  }
 }
 
 .circle {
