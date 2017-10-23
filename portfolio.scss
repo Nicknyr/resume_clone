@@ -43,6 +43,7 @@ hr {
   background-color: lightgrey;
 }
 
+
 #picture1, #picture3 {
   opacity: 1;
 }
@@ -174,21 +175,20 @@ hr {
     line-height: inherit;
   }
 
-  ul {
-    list-style-type: none;
-  }
 
   #social-icons {
     width: 100%;
     padding-top: 2em;
+    padding-left: 0;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 
+
     li {
       display: inline;
-      margin-left: 10em;
-      margin-right: 10em;
+      margin-left: 7em;
+      margin-right: 7em;
     }
   }
 
@@ -197,15 +197,20 @@ hr {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    padding-left: 0;
 
     li {
       display: inline;
-      margin-left: 5em;
-      margin-right: 5em;
+      margin-left: 2.5em;
+      margin-right: 2.5em;
 
       a {
         color: white;
         text-decoration: none;
+
+      &:hover {
+        color: black;
+        }
       }
 
     }
