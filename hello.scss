@@ -83,6 +83,57 @@ hr {
 
 }
 
+#to {
+  width: 33.5%;
+  height: 64.3em;
+  background-color: #F7F7F7;
+  float: left;
+  border-right: 1px solid black;
+
+  span:nth-child(even) {
+    float: right;
+    font-weight: bold;
+    margin-right: 5em;
+  }
+
+  h3 {
+    margin-left: 5.5em;
+    margin-top: 1.5em;
+    clear: both;
+  }
+
+  p {
+    margin-left: 6.5em;
+
+  }
+
+  hr {
+    width: 65%;
+    margin-left: 6.5em;
+  }
+
+  ul {
+    margin-left: 14.5%;
+    list-style-type: none;
+  }
+
+}
+
+#letter {
+  width: 64%;
+  height: auto;
+  background-color: white;
+  float: right;
+  padding-left: 2%;
+
+  p {
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-right: 5em;
+  }
+
+}
+
 
 #social {
   width: 100%;

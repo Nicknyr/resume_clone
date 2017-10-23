@@ -56,6 +56,40 @@ hr {
     margin-right: 9em;
     margin-top: 2.5em; }
 
+#to {
+  width: 33.5%;
+  height: 64.3em;
+  background-color: #F7F7F7;
+  float: left;
+  border-right: 1px solid black; }
+  #to span:nth-child(even) {
+    float: right;
+    font-weight: bold;
+    margin-right: 5em; }
+  #to h3 {
+    margin-left: 5.5em;
+    margin-top: 1.5em;
+    clear: both; }
+  #to p {
+    margin-left: 6.5em; }
+  #to hr {
+    width: 65%;
+    margin-left: 6.5em; }
+  #to ul {
+    margin-left: 14.5%;
+    list-style-type: none; }
+
+#letter {
+  width: 64%;
+  height: auto;
+  background-color: white;
+  float: right;
+  padding-left: 2%; }
+  #letter p {
+    margin-left: 2em;
+    margin-top: 2em;
+    margin-right: 5em; }
+
 #social {
   width: 100%;
   height: 12em;
