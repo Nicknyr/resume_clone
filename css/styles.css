@@ -3,6 +3,10 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif; }
 
+img {
+  max-width: 100%;
+  height: auto; }
+
 h3 {
   color: #0AA1DA; }
 
@@ -11,8 +15,12 @@ hr {
   height: 1px;
   background-color: lightgrey; }
 
-#picture1, #picture3 {
-  opacity: 1; }
+circle {
+  stroke: #0088CC; }
+
+rect {
+  fill: #0088CC;
+  stroke: #0088CC; }
 
 #header {
   width: 100%;
@@ -59,60 +67,73 @@ hr {
     margin-right: 9em;
     margin-top: 2.5em; }
 
-#main {
-  height: 60em; }
+#description {
+  width: 100%;
+  height: 9em;
+  background-color: #576268;
+  border-bottom: 2px solid black; }
+  #description p {
+    margin: 0;
+    width: 80%;
+    margin-left: 8%;
+    color: white;
+    padding-top: 2em;
+    line-height: 1.3; }
 
-#project1, #project3 {
-  height: auto;
+#info {
   width: 33.5%;
-  background-color: white;
+  height: 64.3em;
+  background-color: #F7F7F7;
   float: left;
-  clear: both; }
-  #project1 h3, #project3 h3 {
-    margin-top: 2em; }
-  #project1 p a, #project3 p a {
-    text-decoration: none;
-    color: #0088CC;
-    font-weight: bold; }
-    #project1 p a:hover, #project3 p a:hover {
-      color: black; }
-  #project1 h3, #project3 h3 {
-    margin-left: 5.5em; }
-  #project1 p, #project3 p {
-    margin-left: 6.5em;
-    margin-right: 2em; }
+  -webkit-box-shadow: 20px 0 5px -2px lightgray;
+  box-shadow: 10px 0 5px -2px lightgray; }
+  #info span:nth-child(even) {
+    float: right;
+    font-weight: bold;
+    margin-right: 5em; }
+  #info h3 {
+    margin-left: 5.5em;
+    margin-top: 3em;
+    clear: both; }
+  #info #bars {
+    margin-left: 0;
+    margin-right: 1em;
+    margin-bottom: 3em;
+    width: 10em;
+    float: right; }
+  #info ul {
+    margin-left: 14.5%;
+    list-style-type: none; }
+    #info ul p {
+      text-align: center;
+      font-weight: bold; }
+  #info #software {
+    float: left; }
+  #info .hobbies {
+    clear: both; }
+    #info .hobbies li {
+      display: inline-block;
+      padding-right: 1em; }
 
-#project2 {
+#resume {
+  width: 60%;
   height: auto;
-  width: 33.5%;
   background-color: white;
   float: right;
-  clear: both; }
-  #project2 h3 {
-    margin-top: 2em; }
-  #project2 p a {
-    text-decoration: none;
-    color: #0088CC;
+  padding-left: 5%; }
+  #resume ul {
+    list-style-type: none;
+    width: 80%; }
+  #resume #work-h3 {
+    margin-top: 3em; }
+  #resume #work span {
+    float: right;
     font-weight: bold; }
-    #project2 p a:hover {
-      color: black; }
-  #project2 h3 {
-    margin-left: 2em; }
-  #project2 p {
-    margin-right: 6.5em;
-    margin-left: 2.5em; }
-
-#pic2 {
-  float: left;
-  height: 20em;
-  width: 66.5%;
-  overflow: contain; }
-
-#pic1, #pic3 {
-  float: right;
-  height: 20em;
-  width: 66.5%;
-  overflow: contain; }
+  #resume #education span {
+    float: right;
+    font-weight: bold; }
+  #resume #skills li {
+    display: inline; }
 
 #social {
   width: 100%;
@@ -183,4 +204,24 @@ hr {
   vertical-align: middle;
   display: inline-block; }
 
-/*# sourceMappingURL=portfolio.css.map */
+.circle-hobbies {
+  width: 80px;
+  height: 80px;
+  background-color: #9DCAEB;
+  border-radius: 100%;
+  line-height: 80px;
+  text-align: center;
+  vertical-align: middle;
+  display: inline-block; }
+  .circle-hobbies i {
+    line-height: inherit;
+    color: white; }
+
+#container {
+  margin: 20px;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  display: inline-block; }
+
+/*# sourceMappingURL=styles.css.map */

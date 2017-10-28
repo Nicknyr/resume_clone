@@ -3,7 +3,7 @@
     color: '#0088CC',
     // This has to be the same size as the maximum width to
     // prevent clipping
-    strokeWidth: 4,
+    strokeWidth: 6,
     trailWidth: 1,
     easing: 'easeInOut',
     duration: 1400,
@@ -11,7 +11,7 @@
       autoStyleContainer: false
     },
     from: { color: '#0088CC', width: 1 },
-    to: { color: '#0088CC', width: 4 },
+    to: { color: '#0088CC', width: 6 },
     // Set default step function for all animate calls
     step: function(state, circle) {
       circle.path.setAttribute('stroke', state.color);
@@ -30,6 +30,8 @@
   bar.text.style.fontSize = '2rem';
 
   bar.animate(1.0);  // Number from 0.0 to 1.0
+
+
 
   //********************************************************************************
 
