@@ -129,6 +129,17 @@ rect {
     //margin-right: 5em;
   }
 
+  .left {
+    font-weight: bolder;
+    width: 40%;
+    display: inline-block;
+  }
+
+  .right {
+    width: 50%;
+    display: inline-block;
+  }
+
   h3 {
     margin-left: 5.5em;
     margin-top: 3em;
@@ -414,6 +425,14 @@ rect {
 
     ul {
       margin-left: 0;
+    }
+
+    .left {
+      width: 40%;
+    }
+
+    .right {
+      width: 58%;
     }
 
     span:nth-child(2n) {

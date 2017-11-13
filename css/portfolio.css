@@ -228,9 +228,12 @@ hr {
       margin-left: 1.5em;
       width: 100%; }
     #project1 p, #project2 p, #project3 p {
-      margin-left: 4em;
+      margin-left: 1em;
       margin-right: 0;
-      width: 100%; }
+      width: 90%; }
+
+  #pic2 img {
+    width: 100%; }
 
   #social {
     height: auto;

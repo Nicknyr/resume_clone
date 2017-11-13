@@ -87,6 +87,13 @@ rect {
   #info span:nth-child(even) {
     float: right;
     font-weight: bold; }
+  #info .left {
+    font-weight: bolder;
+    width: 40%;
+    display: inline-block; }
+  #info .right {
+    width: 50%;
+    display: inline-block; }
   #info h3 {
     margin-left: 5.5em;
     margin-top: 3em;
@@ -273,6 +280,10 @@ rect {
       margin-left: 1.5em; }
     #info ul {
       margin-left: 0; }
+    #info .left {
+      width: 40%; }
+    #info .right {
+      width: 58%; }
     #info span:nth-child(2n) {
       margin-right: .5em; }
     #info #bars {
