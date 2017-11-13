@@ -86,7 +86,7 @@ hr {
   border-bottom: 2px solid black;
   -webkit-box-shadow: 20px 0 5px -2px lightgray;
           box-shadow: 10px 0 5px -2px lightgray;
-          
+
   h1 {
     margin-top: 0;
     margin-left: 8%;
@@ -261,5 +261,143 @@ hr {
   text-align: center;
   vertical-align: middle;
   display: inline-block;
+
+}
+
+
+
+// Custom, iPhone Retina */
+
+  @media only screen and (max-width: 700px) {      //(min-width : 320px)
+  #header {
+    width: 100%;
+    height: 8em;
+    background-color: $darkBlue;
+
+    #nav {
+      display: block;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0;
+      padding-left: 0;
+
+
+      li {
+        display: block;
+        text-align: center;
+        padding: .5em;
+      }
+
+
+    }
+  }
+
+  #intro {
+    height: 20em;
+
+    h1 {
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      text-align: center;
+      padding-top: 0;
+      font-size: 2.5em;
+
+    }
+
+    h3 {
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+      width: 100%;
+      text-align: center;
+    }
+
+    #headshot {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      float: none;
+      padding: 1.5em;
+    }
+
+  }
+
+  #project1, #project2, #project3 {
+    width: 100%;
+
+    h3 {
+      margin-left: 1.5em;
+      width: 100%;
+    }
+
+    p {
+      margin-left: 4em;
+      margin-right: 0;
+      width: 100%;
+    }
+  }
+
+
+
+  #social {
+    height: auto;
+    clear: both;
+
+    #social-icons {
+      width: 100%;
+      padding-left: 0;
+      padding-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+
+
+      li {
+        display: block;
+        margin: 2em;
+      }
+    }
+
+    #social-links {
+      li {
+        display: none;
+      }
+
+    }
+
+  }
+
+
+  #footer {
+
+    height: 9em;
+
+    ul {
+      display: inline-block;
+      width: 100%;
+      margin: 0;
+      padding-top: 1.5em;
+
+      li {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: .3em;
+      }
+    }
+
+    span {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+
+    }
+  }
+
 
 }

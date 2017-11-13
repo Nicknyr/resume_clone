@@ -3,12 +3,9 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif; }
 
-img {
-  max-width: 100%;
-  height: auto; }
-
 h3 {
-  color: #0AA1DA; }
+  color: #0AA1DA;
+  margin-top: 2em; }
 
 hr {
   border: none;
@@ -89,8 +86,7 @@ rect {
   box-shadow: 10px 0 5px -2px lightgray; }
   #info span:nth-child(even) {
     float: right;
-    font-weight: bold;
-    margin-right: 5em; }
+    font-weight: bold; }
   #info h3 {
     margin-left: 5.5em;
     margin-top: 3em;
@@ -207,7 +203,7 @@ rect {
 .circle-hobbies {
   width: 80px;
   height: 80px;
-  background-color: #9DCAEB;
+  background-color: #0AA1DA;
   border-radius: 100%;
   line-height: 80px;
   text-align: center;
@@ -217,11 +213,117 @@ rect {
     line-height: inherit;
     color: white; }
 
-#container {
-  margin: 20px;
-  width: 100px;
-  height: 100px;
+.circle-container {
+  margin: 7px;
+  width: 120px;
+  height: 120px;
   position: relative;
   display: inline-block; }
+
+@media only screen and (max-width: 700px) {
+  #header {
+    width: 100%;
+    height: 8em;
+    background-color: #0088CC; }
+    #header #nav {
+      display: block;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0;
+      padding-left: 0; }
+      #header #nav li {
+        display: block;
+        text-align: center;
+        padding: .5em; }
+
+  #intro {
+    height: 20em; }
+    #intro h1 {
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      text-align: center;
+      padding-top: 0;
+      font-size: 2.5em; }
+    #intro h3 {
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+      width: 100%;
+      text-align: center; }
+    #intro #headshot {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      float: none;
+      padding: 1.5em; }
+
+  #description {
+    height: auto; }
+    #description p {
+      padding-top: 1em;
+      padding-bottom: 1em; }
+
+  #info {
+    width: 100%; }
+    #info h3 {
+      margin-left: 1.5em; }
+    #info ul {
+      margin-left: 0; }
+    #info span:nth-child(2n) {
+      margin-right: .5em; }
+    #info #bars {
+      padding-left: 0;
+      width: 9em; }
+    #info .hobbies li {
+      padding-right: .5em; }
+
+  #resume {
+    width: 100%; }
+    #resume h3 {
+      margin-left: 1.5em; }
+    #resume .circle-container {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2em;
+      margin-bottom: 2em; }
+
+  #social {
+    height: auto;
+    clear: both; }
+    #social #social-icons {
+      width: 100%;
+      padding-left: 0;
+      padding-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center; }
+      #social #social-icons li {
+        display: block;
+        margin: 2em; }
+    #social #social-links li {
+      display: none; }
+
+  #footer {
+    height: 9em; }
+    #footer ul {
+      display: inline-block;
+      width: 100%;
+      margin: 0;
+      padding-top: 1.5em; }
+      #footer ul li {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: .3em; }
+    #footer span {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      text-align: center; } }
 
 /*# sourceMappingURL=styles.css.map */

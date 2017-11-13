@@ -10,13 +10,10 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-}
 
 h3 {
   color: $lightBlue;
+  margin-top: 2em;
 }
 
 hr {
@@ -122,10 +119,14 @@ rect {
   -webkit-box-shadow: 20px 0 5px -2px lightgray;
           box-shadow: 10px 0 5px -2px lightgray;
 
+  span:nth-child(odd) {
+
+  }
+
   span:nth-child(even) {
     float: right;
     font-weight: bold;
-    margin-right: 5em;
+    //margin-right: 5em;
   }
 
   h3 {
@@ -310,7 +311,7 @@ rect {
 .circle-hobbies {
   width: 80px;
   height: 80px;
-  background-color: #9DCAEB;
+  background-color: $lightBlue;
   border-radius: 100%;
   line-height: 80px;
   text-align: center;
@@ -324,10 +325,183 @@ rect {
 }
 
 
-#container {
-  margin: 20px;
-  width: 100px;
-  height: 100px;
+.circle-container {
+  margin: 7px;
+  width: 120px;
+  height: 120px;
   position: relative;
   display: inline-block;
+}
+
+
+
+
+// Custom, iPhone Retina */
+
+  @media only screen and (max-width: 700px) {      //(min-width : 320px)
+  #header {
+    width: 100%;
+    height: 8em;
+    background-color: $darkBlue;
+
+    #nav {
+      display: block;
+      width: 100%;
+      margin-left: 0;
+      margin-top: 0;
+      padding-left: 0;
+
+
+      li {
+        display: block;
+        text-align: center;
+        padding: .5em;
+      }
+
+
+    }
+  }
+
+  #intro {
+    height: 20em;
+
+    h1 {
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      text-align: center;
+      padding-top: 0;
+      font-size: 2.5em;
+
+    }
+
+    h3 {
+      margin-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      color: white;
+      width: 100%;
+      text-align: center;
+    }
+
+    #headshot {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 0;
+      float: none;
+      padding: 1.5em;
+    }
+
+  }
+
+  #description {
+    height: auto;
+
+    p {
+      padding-top: 1em;
+      padding-bottom: 1em;
+    }
+  }
+
+  #info {
+    width: 100%;
+
+    h3 {
+      margin-left: 1.5em;
+    }
+
+    ul {
+      margin-left: 0;
+    }
+
+    span:nth-child(2n) {
+     margin-right: .5em;
+    }
+
+    #bars {
+      padding-left: 0;
+      width: 9em;
+    }
+
+    .hobbies li {
+      padding-right: .5em;
+    }
+
+  }
+
+  #resume {
+    width: 100%;
+
+    h3 {
+      margin-left: 1.5em;
+    }
+
+    .circle-container {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 2em;
+      margin-bottom: 2em;
+    }
+  }
+
+  #social {
+    height: auto;
+    clear: both;
+
+    #social-icons {
+      width: 100%;
+      padding-left: 0;
+      padding-top: 0;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+
+
+      li {
+        display: block;
+        margin: 2em;
+      }
+    }
+
+    #social-links {
+      li {
+        display: none;
+      }
+
+    }
+
+  }
+
+
+  #footer {
+
+    height: 9em;
+
+    ul {
+      display: inline-block;
+      width: 100%;
+      margin: 0;
+      padding-top: 1.5em;
+
+      li {
+        display: block;
+        text-align: center;
+        width: 100%;
+        margin-bottom: .3em;
+      }
+    }
+
+    span {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+
+    }
+  }
+
+
 }
