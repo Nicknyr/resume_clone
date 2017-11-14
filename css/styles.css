@@ -68,7 +68,8 @@ rect {
   width: 100%;
   padding: 2em;
   background-color: #576268;
-  border-bottom: 2px solid black; }
+  border-bottom: 2px solid black;
+  width: auto; }
   #description p {
     margin: 0;
     width: 80%;
