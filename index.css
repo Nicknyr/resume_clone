@@ -1,0 +1,43 @@
+/*
+Error: Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.
+        on line 10 of /home/nick/Documents/Projects/resume/index.html
+
+5:     <title>Resume</title>
+6:     <link rel="stylesheet" href="css/styles.css">
+7:     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+8: 
+9:     <script>
+10:      // Picture element HTML5 shiv
+11:      document.createElement( "picture" );
+12:     </script>
+13:      <script src="js/picturefill.js" async></script>
+14: 
+15:      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+Backtrace:
+/home/nick/Documents/Projects/resume/index.html:10
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/engine.rb:494:in `block in tabulate'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/engine.rb:452:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/engine.rb:452:in `each_with_index'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/engine.rb:452:in `tabulate'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/engine.rb:417:in `_to_tree'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/engine.rb:389:in `_render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/engine.rb:307:in `render_with_sourcemap'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:462:in `update_stylesheet'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:209:in `each'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/plugin/compiler.rb:294:in `watch'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/plugin.rb:109:in `method_missing'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/exec/sass_scss.rb:358:in `watch_or_update'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/exec/sass_scss.rb:51:in `process_result'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/exec/base.rb:50:in `parse'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/lib/sass/exec/base.rb:18:in `parse!'
+/var/lib/gems/2.3.0/gems/sass-3.5.7/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Inconsistent indentation: 5 spaces were used for indentation, but the rest of the document was indented using 2 spaces.\A         on line 10 of /home/nick/Documents/Projects/resume/index.html\A \A 5:     <title>Resume</title>\A 6:     <link rel=\"stylesheet\" href=\"css/styles.css\">\A 7:     <link href=\"https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css\" rel=\"stylesheet\" integrity=\"sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN\" crossorigin=\"anonymous\">\A 8: \A 9:     <script>\A 10:      // Picture element HTML5 shiv\A 11:      document.createElement( \"picture\" );\A 12:     </script>\A 13:      <script src=\"js/picturefill.js\" async></script>\A 14: \A 15:      <link rel=\"stylesheet\" href=\"https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css\">"; }

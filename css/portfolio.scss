@@ -31,7 +31,7 @@ $lightGrey: #ecf0f1;
 body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
-
+  overflow-x: hidden;
 }
 
 h3 {
@@ -264,6 +264,9 @@ hr {
 
 }
 
+.container {
+  width: 100%;
+}
 
 
 // Custom, iPhone Retina */
